@@ -30,9 +30,14 @@ Basic interface to obtain minimal P-values per gene from MatrixEQTL passing
 expression and covariate data in matrices, and genotypes as a file. The
 function uses \code{\link{eqtl}}.
 }
+\references{
+
+}
 \seealso{
-Other eqtl functions: \code{\link{eqtl.run}},
-  \code{\link{eqtl}}, \code{\link{myWaitForJobs}},
-  \code{\link{trans.qtl}}
+Other eqtl functions: 
+\code{\link{eqtl.run}()},
+\code{\link{eqtl}()},
+\code{\link{myWaitForJobs}()},
+\code{\link{trans.qtl}()}
 }
 \concept{eqtl functions}

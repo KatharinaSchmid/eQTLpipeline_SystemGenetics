@@ -19,8 +19,10 @@ some strange behaviour when waiting for jobs (database locked)
 so we need to make it extra failsafe.
 }
 \seealso{
-Other eqtl functions: \code{\link{eqtl.min.p}},
-  \code{\link{eqtl.run}}, \code{\link{eqtl}},
-  \code{\link{trans.qtl}}
+Other eqtl functions: 
+\code{\link{eqtl.min.p}()},
+\code{\link{eqtl.run}()},
+\code{\link{eqtl}()},
+\code{\link{trans.qtl}()}
 }
 \concept{eqtl functions}

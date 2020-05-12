@@ -1,9 +1,9 @@
-Package: eQTLpipeline
+Package: eQTLpipelineSystemGenetics
 Title: A package to facilitate the full pipeline of cis eQTL analysis
 Version: 0.1
 Authors@R: person("Matthias", "Heinig", email = "first.last@helmholtz-muenchen.de", role = c("aut", "cre"))
-Description: A package to facilitate the full pipeline of cis eQTL analysis including permutations on a HPC cluster supported by BatchJobs
-Depends: MatrixEQTL (>= 2.1.1), data.table, BatchJobs, R (>= 3.1)
+Description: A package to facilitate the full pipeline of cis eQTL analysis
+Depends: MatrixEQTL (>= 2.1.1), data.table, R (>= 3.1)
 License: What license is it under?
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.1

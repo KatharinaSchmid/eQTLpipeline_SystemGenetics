@@ -29,9 +29,14 @@ the same output as the \code{\link{eqtl}} function
 Basic interface to MatrixEQTL passing expression and covariate data in
 matrices, and genotypes as a file uses the \code{\link{eqtl}} function
 }
+\references{
+
+}
 \seealso{
-Other eqtl functions: \code{\link{eqtl.min.p}},
-  \code{\link{eqtl}}, \code{\link{myWaitForJobs}},
-  \code{\link{trans.qtl}}
+Other eqtl functions: 
+\code{\link{eqtl.min.p}()},
+\code{\link{eqtl}()},
+\code{\link{myWaitForJobs}()},
+\code{\link{trans.qtl}()}
 }
 \concept{eqtl functions}

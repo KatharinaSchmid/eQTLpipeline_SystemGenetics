@@ -4,12 +4,25 @@
 \alias{trans.qtl}
 \title{transQTL interface}
 \usage{
-trans.qtl(prefix, genotype_file_name, vcf = FALSE, snp.pos = NULL,
-  expression_file_name, covariates_file_name = character(),
-  threshold = 1e-05, compute.all = FALSE, what = NULL,
-  min.pv.by.genesnp = FALSE, save.memory = FALSE, verbose = TRUE,
-  redo = TRUE, load.qtls = FALSE, keep.outfile = FALSE,
-  id.check = FALSE, gene.position = NULL)
+trans.qtl(
+  prefix,
+  genotype_file_name,
+  vcf = FALSE,
+  snp.pos = NULL,
+  expression_file_name,
+  covariates_file_name = character(),
+  threshold = 1e-05,
+  compute.all = FALSE,
+  what = NULL,
+  min.pv.by.genesnp = FALSE,
+  save.memory = FALSE,
+  verbose = TRUE,
+  redo = TRUE,
+  load.qtls = FALSE,
+  keep.outfile = FALSE,
+  id.check = FALSE,
+  gene.position = NULL
+)
 }
 \arguments{
 \item{prefix}{path and prefix for the outputfiles (default NULL)}
@@ -80,7 +93,11 @@ and covariate data (default FALSE)}
 \item{gene.position}{data.frame with gene positions in the first 4 columns
 named "gene_id", "chrom", "start", "end"}
 
-\item{threshold.trans}{Parameters/options in the old wrapper that do not work currently:}
+\item{threshold.cis}{Threshold for cis eQTLs}
+
+\item{threshold.trans}{Threshold for trans eQTLs
+
+Parameters/options in the old wrapper that do not work currently:}
 }
 \value{
 if what="table", the data.frame contained in the MatrixEQTL object
@@ -92,10 +109,15 @@ Interface to the MatrixEQTL Matrix_eQTL_engine()
 This is a simplified version for more general (trans)QTL analyses,
 e.g. GWAS or metaboliteQTL and does not need gene annotations
 }
+\references{
+
+}
 \seealso{
-Other eqtl functions: \code{\link{eqtl.min.p}},
-  \code{\link{eqtl.run}}, \code{\link{eqtl}},
-  \code{\link{myWaitForJobs}}
+Other eqtl functions: 
+\code{\link{eqtl.min.p}()},
+\code{\link{eqtl.run}()},
+\code{\link{eqtl}()},
+\code{\link{myWaitForJobs}()}
 }
 \author{
 Ines Assum (2019-03-21)

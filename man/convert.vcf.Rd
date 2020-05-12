@@ -4,8 +4,13 @@
 \alias{convert.vcf}
 \title{convert .vcf files to MatrixEQTL genotype input}
 \usage{
-convert.vcf(vcf.file, which = "GT", map = FALSE, snp.pos = FALSE,
-  genotype_file_name = NULL)
+convert.vcf(
+  vcf.file,
+  which = "GT",
+  map = FALSE,
+  snp.pos = FALSE,
+  genotype_file_name = NULL
+)
 }
 \arguments{
 \item{vcf.file}{vcf.file containing genotypes}
@@ -27,6 +32,9 @@ either a matrix nsnps x nsample containing genotypes coded as 0,1,2
 }
 \description{
 convenience function to convert genotypes from .vcf files to the MatrixEQTL format
+}
+\references{
+
 }
 \author{
 Ines Assum (2019-03-21)

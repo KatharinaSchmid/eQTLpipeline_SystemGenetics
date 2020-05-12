@@ -27,6 +27,9 @@ data frame with columns "chr", "chrLen", "cumSum2", "cumSum", "tick"
 \description{
 convenience function to get cumulative chromosome lengths for manhattan plots
 }
+\references{
+
+}
 \author{
 Ines Assum (2019-03-21)
 }

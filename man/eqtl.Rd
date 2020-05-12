@@ -4,9 +4,18 @@
 \alias{eqtl}
 \title{basic eQTL interface}
 \usage{
-eqtl(expression_file_name, genotype_file_name, covariates_file_name,
-  gene.position, snp.pos, prefix, redo = FALSE, threshold = 1e-05,
-  compute.all = FALSE, what = "table")
+eqtl(
+  expression_file_name,
+  genotype_file_name,
+  covariates_file_name,
+  gene.position,
+  snp.pos,
+  prefix,
+  redo = FALSE,
+  threshold = 1e-05,
+  compute.all = FALSE,
+  what = "table"
+)
 }
 \arguments{
 \item{expression_file_name}{filename of a tab separated file with expression
@@ -44,9 +53,14 @@ if what is "table" the function returns the eQTL results as a table
 \description{
 Basic interface to MatrixEQTL passing all data in files
 }
+\references{
+
+}
 \seealso{
-Other eqtl functions: \code{\link{eqtl.min.p}},
-  \code{\link{eqtl.run}}, \code{\link{myWaitForJobs}},
-  \code{\link{trans.qtl}}
+Other eqtl functions: 
+\code{\link{eqtl.min.p}()},
+\code{\link{eqtl.run}()},
+\code{\link{myWaitForJobs}()},
+\code{\link{trans.qtl}()}
 }
 \concept{eqtl functions}
